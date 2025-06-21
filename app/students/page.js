@@ -29,7 +29,7 @@ export default async function StudentsPage() {
         </tbody>
       </table>
       <nav style={{ marginTop: 16 }}>
-        <Link href="/">Back to Home</Link>
+        <Link href="/" className="btn">Back to Home</Link>
       </nav>
     </main>
   );

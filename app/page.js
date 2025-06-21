@@ -1,11 +1,13 @@
 // Homepage for Student Directory
 export default function Home() {
   return (
-    <main style={{ padding: 32 }}>
-      <h1>Student Directory</h1>
-      <nav>
-        <a href="/students">View Students</a>
-      </nav>
-    </main>
+    <>
+      <header className="main-header">
+        <h1>Student Directory</h1>
+      </header>
+      <div className="center">
+        <a href="/students" className="btn">View Students</a>
+      </div>
+    </>
   );
 }
